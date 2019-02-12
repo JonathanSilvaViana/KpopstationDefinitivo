@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+            android:id="@+id/bt_noticias"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notícias" />
+
+        <Button
+            android:id="@+id/bt_estudos"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_height="wrap_content"
+            android:text="Guias de estudo" />
+
+        <Button
+            android:id="@+id/bt_promocoes"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_height="wrap_content"
+            android:text="Promoções" />
+
+        <Button
+            android:id="@+id/produtos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Produtos" />
+
+        <Button
+            android:id="@+id/bt_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Parceiros e Patrocinadores" />
+
+        <Button
+            android:id="@+id/bt_seguir"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_height="wrap_content"
+            android:text="Seguir" />
+
+        <Button
+            android:id="@+id/sobreoaplicativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Sobre o aplicativo" />
+
+
+</LinearLayout>
+</ScrollView>
