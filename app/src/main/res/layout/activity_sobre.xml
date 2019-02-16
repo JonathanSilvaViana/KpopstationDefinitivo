@@ -32,5 +32,20 @@
         layout="@layout/bt_voltar"
         />
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="116dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/adUnitId">
+
+    </com.google.android.gms.ads.AdView>
+
 
 </RelativeLayout>

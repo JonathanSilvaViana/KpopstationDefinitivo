@@ -34,7 +34,7 @@ public class Aulas extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebViewClient());
 
-        HTML = "<html><head><meta http-equiv='refresh' content='0;URL=https://kpopstation.com.br/novo/menudoapp'></head><body>" + " <h3>  </h3> " + "</body></html>";
+        HTML = "<html><head><meta http-equiv='refresh' content='0;URL=https://kpopstation.com.br/definitivo/videos/index.html'></head><body>" + " <h3>  </h3> " + "</body></html>";
 
 
         if (CN.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED

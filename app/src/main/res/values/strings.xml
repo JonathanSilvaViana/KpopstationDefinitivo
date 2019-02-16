@@ -1,3 +1,8 @@
 <resources>
+    <!--<string name="app_name">Kpopstation</string>-->
+
     <string name="app_name">Kpopstation</string>
+    <string name="adUnitId">ca-app-pub-2931850328324162/8839184258</string>
+    <string name="ca_app_pub">ca-app-pub-2931850328324162~3800224969</string>
+
 </resources>

@@ -23,6 +23,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 
 import java.util.List;
@@ -55,7 +58,6 @@ public class Posts extends AppCompatActivity {
 
         ConnectivityManager CN = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 
-
         if (CN.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED
                 || CN.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
         {
@@ -85,7 +87,7 @@ public class Posts extends AppCompatActivity {
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError volleyError) {
-                    Toast.makeText(Posts.this, "Algum erro ocorreu ao sincronizar, tente novamente.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Posts.this, "Sua rede demorou ao sincronizar, pressione 'voltar'", Toast.LENGTH_LONG).show();
                 }
             });
 

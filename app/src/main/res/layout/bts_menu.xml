@@ -13,7 +13,9 @@
     <Button
             android:id="@+id/bt_noticias"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/amarelo"
             android:layout_width="match_parent"
+            android:layout_marginTop="1dp"
             android:layout_height="wrap_content"
             android:text="Notícias" />
 
@@ -21,14 +23,18 @@
             android:id="@+id/bt_estudos"
             android:layout_width="match_parent"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/amarelo"
             android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
             android:text="Guias de estudo" />
 
         <Button
             android:id="@+id/bt_promocoes"
             android:layout_width="match_parent"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/amarelo"
             android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
             android:text="Promoções" />
 
         <Button
@@ -36,6 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="1dp"
+            android:background="@color/amarelo"
             android:text="Produtos" />
 
         <Button
@@ -43,12 +51,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_marginTop="1dp"
+            android:background="@color/amarelo"
             android:text="Parceiros e Patrocinadores" />
 
         <Button
             android:id="@+id/bt_seguir"
             android:layout_width="match_parent"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/amarelo"
+            android:layout_marginTop="1dp"
             android:layout_height="wrap_content"
             android:text="Seguir" />
 
@@ -56,7 +68,9 @@
             android:id="@+id/sobreoaplicativo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
             style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/amarelo"
             android:text="Sobre o aplicativo" />
 
 
